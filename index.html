@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="w-full h-20 flex bg-[#b2f2bb] top-0">
+      <div class="group/sub_item relative flex hover:bg-[#eebefa] hover:text-black">
+          <div class="header__item item">item!</div>
+          <div class="absolute top-full left-0 bg-[#eebefa] invisible group-hover/sub_item:visible">
+              <div class="item__sub-item sub-item">sub item</div>
+              <div class="group/item__img relative flex hover:bg-[#ffa94d] hover:text-black">
+                  <div class="item__sub-item sub-item">sub item!</div> 
+                  <div class="absolute -mt-10 translate-x-40 invisible group-hover/item__img:visible">
+                      <img src="https://placehold.co/100x100/orange/white?text=O,+privet" alt="" >
+                  </div>
+              </div>
+
+              <div class="item__sub-item sub-item">sub item</div>
+              <div class="item__sub-item sub-item">sub item</div>
+          </div>
+      </div>
+      <div class="header__item item">item</div>
+      <div class="header__item item">item</div>
+      <div class="header__item item ">item</div>
+  </header>
+  <div class="flex grow justify-between mx-14 my-5">
+      <div><img src="https://placehold.co/700x1000"></div>
+      <div class="relative flex flex-col justify-between">
+          <div id="app" class="top-0 sticky w-auto bg-[#b2f2bb]"></div>
+          <div class="bottom-0 sticky"><img src="https://placehold.co/600x200"></div>
+      </div>
+  </div>
+  <footer class="w-full h-20 bg-[#40c057] bottom-0"></footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

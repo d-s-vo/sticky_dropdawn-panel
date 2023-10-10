@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header__item {
+  width: 10rem;
+}
+.item{
+  padding: 1rem 2rem ;
+  font-weight: lighter;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.item__sub-item{
+  width: 10rem;
+}
+.sub-item{
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 200;
+}
